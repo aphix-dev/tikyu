@@ -1,0 +1,19 @@
+create myVar = 20
+create myVar (string)
+
+if myVar == 20 {
+	log(“good”)
+	logf(“good\n”)
+} otherwise {
+	log(“bad”)
+}
+
+@using “http”
+
+create Server = new http->server()
+create Port = 8080
+server.run(Port)
+
+fxn Test(string myVar) -> string {
+    
+}
